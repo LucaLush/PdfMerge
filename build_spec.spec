@@ -5,6 +5,7 @@ import os
 datas = [
     ('app/resources/styles.qss', 'app/resources'),
     ('app/resources/icon.ico', 'app/resources'),
+    ('app/resources/icon.png', 'app/resources'),
 ]
 
 a = Analysis(
