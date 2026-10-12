@@ -1,0 +1,133 @@
+/* 现代扁平化浅色/科技感 QSS 样式表 */
+
+QMainWindow {
+    background-color: #f7f9fc;
+}
+
+QWidget {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Microsoft YaHei", sans-serif;
+    font-size: 13px;
+    color: #2c3e50;
+}
+
+QPushButton {
+    background-color: #ffffff;
+    border: 1px solid #dcdfe6;
+    border-radius: 6px;
+    padding: 6px 14px;
+    color: #303133;
+    font-weight: 500;
+}
+
+QPushButton:hover {
+    background-color: #f2f6fc;
+    border-color: #409eff;
+    color: #409eff;
+}
+
+QPushButton:pressed {
+    background-color: #ecf5ff;
+    border-color: #3a8ee6;
+}
+
+QPushButton:disabled {
+    background-color: #f5f7fa;
+    border-color: #e4e7ed;
+    color: #c0c4cc;
+}
+
+QPushButton#btnStart {
+    background-color: #409eff;
+    border: 1px solid #409eff;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 6px 20px;
+}
+
+QPushButton#btnStart:hover {
+    background-color: #66b1ff;
+    border-color: #66b1ff;
+}
+
+QPushButton#btnStart:pressed {
+    background-color: #3a8ee6;
+    border-color: #3a8ee6;
+}
+
+QPushButton#btnStart:disabled {
+    background-color: #a0cfff;
+    border-color: #a0cfff;
+    color: #ffffff;
+}
+
+QPushButton#btnCancel {
+    background-color: #f56c6c;
+    border: 1px solid #f56c6c;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+QPushButton#btnCancel:hover {
+    background-color: #f78989;
+    border-color: #f78989;
+}
+
+QPushButton#btnCancel:pressed {
+    background-color: #dd6161;
+    border-color: #dd6161;
+}
+
+QPushButton#btnClear:hover, QPushButton#btnRemove:hover {
+    color: #f56c6c;
+    border-color: #fbc4c4;
+    background-color: #fef0f0;
+}
+
+QListWidget {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 6px;
+    selection-background-color: #ecf5ff;
+    selection-color: #409eff;
+    outline: none;
+}
+
+QListWidget::item {
+    border-radius: 4px;
+    padding: 8px 10px;
+    margin: 2px 0px;
+    background-color: #fafbfc;
+    border: 1px solid #f0f2f5;
+}
+
+QListWidget::item:hover {
+    background-color: #f5f7fa;
+    border-color: #dcdfe6;
+}
+
+QListWidget::item:selected {
+    background-color: #ecf5ff;
+    color: #409eff;
+    border-color: #b3d8ff;
+    font-weight: 500;
+}
+
+QProgressBar {
+    border: 1px solid #ebeef5;
+    border-radius: 6px;
+    background-color: #ebeef5;
+    text-align: center;
+    font-size: 12px;
+    color: #303133;
+    height: 16px;
+}
+
+QProgressBar::chunk {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #409eff, stop:1 #67c23a);
+    border-radius: 5px;
+}
+
+QLabel {
+    color: #606266;
+}
